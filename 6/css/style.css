@@ -216,8 +216,6 @@ img {
     grid-area: 1/1/2/2;
     row-gap: 14px;
     column-gap: 14px;
-    width: -moz-fit-content;
-    width: fit-content;
     margin: 0;
     margin-top: 55px;
     margin-left: var(--padding-page);
@@ -606,18 +604,18 @@ img {
   }
 }
 
-.promo__image-wrapper {
+.promo__image-container {
   margin-block: -135px 3px;
 }
 @media (width >= 768px) {
-  .promo__image-wrapper {
+  .promo__image-container {
     grid-area: 3/1/4/2;
     justify-self: center;
     margin: 0;
   }
 }
 @media (width >= 1440px) {
-  .promo__image-wrapper {
+  .promo__image-container {
     z-index: -1;
     grid-area: 1/2/4/3;
     align-self: center;
