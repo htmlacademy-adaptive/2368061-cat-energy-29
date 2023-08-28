@@ -314,7 +314,7 @@ img {
 }
 
 @media (width < 768px) {
-  .header__list {
+  .header--js-menu_opened .header__list {
     position: absolute;
     right: 0;
     left: 0;
