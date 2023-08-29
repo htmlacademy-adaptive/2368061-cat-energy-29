@@ -1475,7 +1475,7 @@ img {
   height: 40px;
   background-color: var(--color);
   -webkit-mask: center/contain no-repeat url("../img/compare-arrows.svg");
-  mask: center/contain no-repeat url("../img/compare-arrows.svg");
+          mask: center/contain no-repeat url("../img/compare-arrows.svg");
 }
 @media (hover: hover) {
   .compare-slider__thumb:hover, .compare-slider__thumb:focus-visible {
@@ -1771,19 +1771,19 @@ img {
   margin: auto;
   background-color: var(--color-icon-second);
   -webkit-mask: center/contain no-repeat;
-  mask: center/contain no-repeat;
+          mask: center/contain no-repeat;
 }
 .socials__link--icon_vk::before {
   -webkit-mask-image: url("../img/socials-vk.svg");
-  mask-image: url("../img/socials-vk.svg");
+          mask-image: url("../img/socials-vk.svg");
 }
 .socials__link--icon_yt::before {
   -webkit-mask-image: url("../img/socials-yt.svg");
-  mask-image: url("../img/socials-yt.svg");
+          mask-image: url("../img/socials-yt.svg");
 }
 .socials__link--icon_tg::before {
   -webkit-mask-image: url("../img/socials-tg.svg");
-  mask-image: url("../img/socials-tg.svg");
+          mask-image: url("../img/socials-tg.svg");
 }
 @media (hover: hover) {
   .socials__link:hover::before, .socials__link:focus-visible::before {
@@ -2247,6 +2247,7 @@ img {
 .field__input[type=number]::-webkit-outer-spin-button, .field__input[type=number]::-webkit-inner-spin-button {
   margin: 0;
   -webkit-appearance: none;
+          appearance: none;
 }
 
 .field__label {
@@ -2260,12 +2261,12 @@ img {
   height: 20px;
   background-color: var(--color-icon-basic);
   -webkit-mask: center/contain no-repeat;
-  mask: center/contain no-repeat;
+          mask: center/contain no-repeat;
 }
 .field--icon_mail .field__label::after {
   right: 12px;
   -webkit-mask-image: url("../img/icons-mail.svg");
-  mask-image: url("../img/icons-mail.svg");
+          mask-image: url("../img/icons-mail.svg");
 }
 @media (width >= 768px) {
   .field--icon_mail .field__label::after {
@@ -2280,7 +2281,7 @@ img {
 .field--icon_phone .field__label::after {
   right: 13px;
   -webkit-mask-image: url("../img/icons-phone.svg");
-  mask-image: url("../img/icons-phone.svg");
+          mask-image: url("../img/icons-phone.svg");
 }
 @media (width >= 768px) {
   .field--icon_phone .field__label::after {
@@ -2312,7 +2313,7 @@ img {
   border: 1px solid var(--color-bd-second);
   border-radius: 50%;
   -webkit-appearance: none;
-  appearance: none;
+          appearance: none;
 }
 @media (width >= 768px) {
   .radio__input {
@@ -2390,7 +2391,7 @@ img {
   background-color: var(--color-bg-basic);
   border: 1px solid var(--color-bd-second);
   -webkit-appearance: none;
-  appearance: none;
+          appearance: none;
 }
 @media (width >= 768px) {
   .checkbox__input {
